@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+}
+
+::selection {
+  background-color: var(--color-blue-400);
+  color: var(--text-color-inverted);
+}
